@@ -32,7 +32,7 @@ Features
   to find docstrings for module, class and instance variables.
 * For cases where docstrings aren't appropriate (like a
   [namedtuple](http://docs.python.org/2.7/library/collections.html#namedtuple-factory-function-for-tuples-with-named-fields)),
-  the special variable `__pdocs__` can be used in your module to
+  the special variable `__pdoc__` can be used in your module to
   document any identifier in your public interface.
 * Usage is simple. Just write your documentation as Markdown. There are no
   added special syntax rules.
